@@ -1,0 +1,31 @@
+.social{
+    width: 200px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background: #ECF2FF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social > a {
+    width: 25%;
+    font-size: 2rem;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #fff;
+    margin: 10px;
+    transition: 0.4s;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgba(255, 255, 255, alpha) -3px -3px 6px 1px;
+}
+
+.social > a:hover{
+    transform: translateY(-10px);
+}

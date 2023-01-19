@@ -1,0 +1,48 @@
+body{
+    background-color: #000;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container > button{
+    height: 45px;
+    width: 200px;
+    border-radius: 45px;
+    border: none;
+    color: #0EFFEE;
+    background: linear-gradient(145deg, #283846, #212f3b);
+    box-shadow: 5px 5px 17px #18212a, -5px -5px 17px #324758;
+}
+
+.container > span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #0EFFEE;
+    background: linear-gradient(145deg, #283846, #212f3b);
+    box-shadow: 5px 5px 17px #18212a, -5px -5px 17px #324758;
+}
+
+.container > span:nth-child(2){
+    color: red;
+}
+
+.container > span:hover{
+    cursor: pointer;
+    background: #253441;
+    box-shadow: inset 5px 5px 10px #18212a, inset -5px -5px 10px #324758;
+}
